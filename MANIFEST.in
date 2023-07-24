@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include antrean *.css
+recursive-include antrean *.csv
+recursive-include antrean *.html
+recursive-include antrean *.ico
+recursive-include antrean *.js
+recursive-include antrean *.json
+recursive-include antrean *.md
+recursive-include antrean *.png
+recursive-include antrean *.py
+recursive-include antrean *.svg
+recursive-include antrean *.txt
+recursive-exclude antrean *.pyc
