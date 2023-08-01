@@ -1,0 +1,19 @@
+{
+ "content": null,
+ "creation": "2023-08-01 02:08:08.161472",
+ "docstatus": 0,
+ "doctype": "Page",
+ "idx": 0,
+ "modified": "2023-08-01 02:08:32.389292",
+ "modified_by": "Administrator",
+ "module": "Aplikasi Antrean Sistem Informasi Rumah Sakit",
+ "name": "display-antrean-bpjs",
+ "owner": "Administrator",
+ "page_name": "display-antrean-bpjs",
+ "roles": [],
+ "script": null,
+ "standard": "Yes",
+ "style": null,
+ "system_page": 0,
+ "title": "Display Antrean BPJS"
+}

@@ -1,0 +1,223 @@
+{
+ "actions": [],
+ "allow_guest_to_view": 1,
+ "allow_rename": 1,
+ "autoname": "field:kode_booking",
+ "creation": "2023-07-25 01:16:16.987169",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_07i7p",
+  "no_bpjs",
+  "tanggalperiksa",
+  "jadwaldokterhtml",
+  "kode_booking",
+  "noantrian",
+  "angka_antrian",
+  "column_break_accny",
+  "jadwal_dokter",
+  "section_break_5sdea",
+  "data_pasien_column",
+  "nik",
+  "no_hp",
+  "no_rm",
+  "jeniskunjungan",
+  "nomorreferensi",
+  "column_break_ijqtb",
+  "kode_poli",
+  "nama_poli",
+  "kodedokter",
+  "namadokter",
+  "jampraktek",
+  "kapasitaspasien",
+  "task_list_tab",
+  "task_id",
+  "column_break_el7i9",
+  "task_name",
+  "section_break_v3l6w",
+  "task_list"
+ ],
+ "fields": [
+  {
+   "fieldname": "no_bpjs",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "No BPJS",
+   "reqd": 1
+  },
+  {
+   "fieldname": "tanggalperiksa",
+   "fieldtype": "Date",
+   "label": "Tanggal Periksa",
+   "reqd": 1
+  },
+  {
+   "fieldname": "jadwal_dokter",
+   "fieldtype": "HTML",
+   "label": "Jadwal Dokter"
+  },
+  {
+   "fieldname": "jadwaldokterhtml",
+   "fieldtype": "Read Only",
+   "label": "Jadwal_dokter"
+  },
+  {
+   "fieldname": "section_break_5sdea",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "kode_booking",
+   "fieldtype": "Read Only",
+   "label": "Kode Booking",
+   "unique": 1
+  },
+  {
+   "fieldname": "nik",
+   "fieldtype": "Read Only",
+   "label": "Nik"
+  },
+  {
+   "fieldname": "no_hp",
+   "fieldtype": "Read Only",
+   "label": "No HP"
+  },
+  {
+   "fieldname": "kode_poli",
+   "fieldtype": "Read Only",
+   "label": "Kode Poli"
+  },
+  {
+   "fieldname": "nama_poli",
+   "fieldtype": "Read Only",
+   "label": "Nama Poli"
+  },
+  {
+   "fieldname": "no_rm",
+   "fieldtype": "Read Only",
+   "in_list_view": 1,
+   "label": "No RM"
+  },
+  {
+   "fieldname": "kodedokter",
+   "fieldtype": "Read Only",
+   "label": "Kode Dokter"
+  },
+  {
+   "fieldname": "namadokter",
+   "fieldtype": "Read Only",
+   "label": "Nama Dokter"
+  },
+  {
+   "fieldname": "jampraktek",
+   "fieldtype": "Read Only",
+   "label": "Jam Praktek"
+  },
+  {
+   "description": "1 (Rujukan FKTP)\n2 (Rujukan Internal)\n3 (Kontrol)\n4 (Rujukan Antar RS)",
+   "fieldname": "jeniskunjungan",
+   "fieldtype": "Read Only",
+   "label": "Jenis Kunjungan"
+  },
+  {
+   "fieldname": "nomorreferensi",
+   "fieldtype": "Read Only",
+   "label": "Nomor Referensi"
+  },
+  {
+   "fieldname": "kapasitaspasien",
+   "fieldtype": "Read Only",
+   "label": "Kapasitas pasien"
+  },
+  {
+   "fieldname": "noantrian",
+   "fieldtype": "Read Only",
+   "in_list_view": 1,
+   "label": "No Antrian"
+  },
+  {
+   "fieldname": "angka_antrian",
+   "fieldtype": "Read Only",
+   "label": "Angka Antrian"
+  },
+  {
+   "fieldname": "column_break_ijqtb",
+   "fieldtype": "Column Break",
+   "label": "Data Jadwal Dokter"
+  },
+  {
+   "fieldname": "section_break_07i7p",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_accny",
+   "fieldtype": "Column Break",
+   "label": "Jadwal Dokter"
+  },
+  {
+   "fieldname": "data_pasien_column",
+   "fieldtype": "Column Break",
+   "label": "Data Pasien"
+  },
+  {
+   "fieldname": "task_list_tab",
+   "fieldtype": "Tab Break",
+   "label": "Task List"
+  },
+  {
+   "fieldname": "task_list",
+   "fieldtype": "Table",
+   "label": "Task List",
+   "options": "Task List Detail",
+   "read_only": 1
+  },
+  {
+   "fieldname": "task_id",
+   "fieldtype": "Select",
+   "label": "Task ID",
+   "options": "1\n2\n3\n4\n5\n6\n7\n99"
+  },
+  {
+   "fieldname": "column_break_el7i9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "task_name",
+   "fieldtype": "Read Only",
+   "label": "Task Name"
+  },
+  {
+   "fieldname": "section_break_v3l6w",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-08-01 01:58:59.448219",
+ "modified_by": "Administrator",
+ "module": "Aplikasi Antrean Sistem Informasi Rumah Sakit",
+ "name": "Antrean BPJS",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
+}

@@ -1,0 +1,125 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{####}",
+ "creation": "2023-07-31 16:20:45.077881",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "ruangan",
+  "dokter",
+  "nama_dokter",
+  "id_dokter",
+  "hari",
+  "jadwal",
+  "column_break_gt5xx",
+  "jam_mulai",
+  "jam_tutup",
+  "durasi",
+  "quota_jkn",
+  "quota_non_jkn"
+ ],
+ "fields": [
+  {
+   "fieldname": "ruangan",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Ruangan",
+   "options": "Ruangan"
+  },
+  {
+   "fieldname": "dokter",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Dokter",
+   "options": "Dokter"
+  },
+  {
+   "fetch_from": "dokter.nama_dokter",
+   "fieldname": "nama_dokter",
+   "fieldtype": "Read Only",
+   "label": "Nama Dokter"
+  },
+  {
+   "fetch_from": "dokter.nik_pegawai",
+   "fieldname": "id_dokter",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "ID Dokter"
+  },
+  {
+   "fieldname": "hari",
+   "fieldtype": "Select",
+   "label": "Hari",
+   "options": "Senin\nSelasa\nRabu\nKamis\nJumat\nSabtu\nMinggu"
+  },
+  {
+   "fieldname": "jadwal",
+   "fieldtype": "Select",
+   "label": "Jadwal",
+   "options": "Pagi\nSiang\nSore\nMalam"
+  },
+  {
+   "fieldname": "column_break_gt5xx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "jam_mulai",
+   "fieldtype": "Time",
+   "label": "Jam Mulai"
+  },
+  {
+   "fieldname": "jam_tutup",
+   "fieldtype": "Time",
+   "label": "Jam Tutup"
+  },
+  {
+   "fieldname": "durasi",
+   "fieldtype": "Int",
+   "label": "Durasi (Menit)"
+  },
+  {
+   "fieldname": "quota_jkn",
+   "fieldtype": "Int",
+   "label": "Quota JKN"
+  },
+  {
+   "fieldname": "quota_non_jkn",
+   "fieldtype": "Int",
+   "label": "Quota Non JKN"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_calendar_and_gantt": 1,
+ "is_virtual": 1,
+ "links": [],
+ "modified": "2023-07-31 18:36:47.306434",
+ "modified_by": "Administrator",
+ "module": "Aplikasi Antrean Sistem Informasi Rumah Sakit",
+ "name": "Referensi Jadwal Dokter",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
+}

@@ -1,0 +1,128 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"QAGS_yTjP0\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Antrean System</span>\",\"col\":12}},{\"id\":\"wdqFDwd7eR\",\"type\":\"card\",\"data\":{\"card_name\":\"Display\",\"col\":3}},{\"id\":\"4lxU8LVnJc\",\"type\":\"card\",\"data\":{\"card_name\":\"Antrean BPJS\",\"col\":4}},{\"id\":\"tupXq3FrHF\",\"type\":\"card\",\"data\":{\"card_name\":\"Layanan\",\"col\":3}},{\"id\":\"nD4EDUzl5P\",\"type\":\"card\",\"data\":{\"card_name\":\"Reporting\",\"col\":3}},{\"id\":\"IEEOc5UnE3\",\"type\":\"card\",\"data\":{\"card_name\":\"Master\",\"col\":4}}]",
+ "creation": "2023-07-25 01:18:53.723900",
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "dashboard-list",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Antrean",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Antrean BPJS",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Antrean",
+   "link_count": 0,
+   "link_to": "Antrean BPJS",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Reporting",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Report Antrean BPJS",
+   "link_count": 0,
+   "link_to": "Dashboard Antrian BPJS",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Master",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Setting BPJS",
+   "link_count": 0,
+   "link_to": "Setting BPJS",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Display",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Display Antrean",
+   "link_count": 0,
+   "link_to": "display-antrean",
+   "link_type": "Page",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Layanan",
+   "link_count": 2,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Loket",
+   "link_count": 0,
+   "link_to": "Loket",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Hidelines",
+   "link_count": 0,
+   "link_to": "Hidelines",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2023-07-25 12:41:12.309095",
+ "modified_by": "Administrator",
+ "module": "Aplikasi Antrean Sistem Informasi Rumah Sakit",
+ "name": "Antrean",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 37.0,
+ "shortcuts": [],
+ "title": "Antrean"
+}
